@@ -1,0 +1,7 @@
+not number;1;.*//grid side is not a number
+0;1;.*//grid side zero
+3;1;.*//grid side not power of two
+1;not number;.*//pixel size is not a number
+1;0;.*//pixel size is zero
+1;1;a.*//regex contains illegal characters
+1;1;.**//not a valid regex
